@@ -1,0 +1,1 @@
+import './parte6/script6'
