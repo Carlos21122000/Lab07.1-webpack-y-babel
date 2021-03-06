@@ -1,54 +1,8 @@
 "use strict";
 
-require("core-js/modules/es.symbol.match-all.js");
+require("core-js/stable");
 
-require("core-js/modules/es.array.reduce.js");
-
-require("core-js/modules/es.array.reduce-right.js");
-
-require("core-js/modules/es.array.unscopables.flat.js");
-
-require("core-js/modules/es.array.unscopables.flat-map.js");
-
-require("core-js/modules/es.promise.all-settled.js");
-
-require("core-js/modules/es.promise.finally.js");
-
-require("core-js/modules/es.string.match-all.js");
-
-require("core-js/modules/es.string.replace.js");
-
-require("core-js/modules/es.typed-array.float32-array.js");
-
-require("core-js/modules/es.typed-array.float64-array.js");
-
-require("core-js/modules/es.typed-array.int8-array.js");
-
-require("core-js/modules/es.typed-array.int16-array.js");
-
-require("core-js/modules/es.typed-array.int32-array.js");
-
-require("core-js/modules/es.typed-array.uint8-array.js");
-
-require("core-js/modules/es.typed-array.uint8-clamped-array.js");
-
-require("core-js/modules/es.typed-array.uint16-array.js");
-
-require("core-js/modules/es.typed-array.uint32-array.js");
-
-require("core-js/modules/es.typed-array.from.js");
-
-require("core-js/modules/es.typed-array.of.js");
-
-require("core-js/modules/web.dom-collections.iterator.js");
-
-require("core-js/modules/web.immediate.js");
-
-require("core-js/modules/web.url.js");
-
-require("core-js/modules/web.url.to-json.js");
-
-require("core-js/modules/web.url-search-params.js");
+require("regenerator-runtime/runtime");
 
 require("../CSS/csspaginas.scss");
 

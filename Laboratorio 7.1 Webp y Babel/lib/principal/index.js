@@ -1,12 +1,17 @@
 "use strict";
 
+require("core-js/stable");
+
+require("regenerator-runtime/runtime");
+
+require("../CSS/cssprincipal.scss");
+
 var _img = _interopRequireDefault(require("../multimedia/img100.jpg"));
 
 var _imagen = _interopRequireDefault(require("../multimedia/imagen1.jpg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-//import '../CSS/cssprincipal.scss';
 const header1 = document.createElement("header");
 const nav1 = document.createElement("nav");
 const ul_general = document.createElement("ul");
